@@ -21,11 +21,11 @@ The requirements described in this document will be the basis for development of
 
 The following deliverables will constitute the output of this group.
 
-##### 1. Use Cases and Requirements: 
+##### 1. Use Cases and Requirements:
 
 A document setting out the range of problems that the group is trying to solve (this document).
 
-##### 2. Best Practices: 
+##### 2. Best Practices:
 
 This will include:
 
@@ -99,6 +99,16 @@ Over time, historical incidents are used to predict road maintenance needs so th
 
 **Related Requirements:** [Capture Creation Process](#capture-creation-process), [Capture Accuracy of Geographic Position](#capture-accuracy-of-the-geographic-position), [Machine Readable Provenance](#machine-readable-provenance)
 
+## 4.4 Artifical Intelligence
+
+**Contributed by:** Sam Meek
+
+<details><summary><b>Full Use Case Description (Click to expand/collapse)</b></summary>
+<p>
+Artificial Intelligence (AI) has exploded into computing over the last few years, however it has yet to be widely utilized in data quality use cases. A current experimental example is within the LandSense project (www.landsense.eu). Here, AI is used to classify the content of imagery and match the result with user submitted tags. The work is currently focused on classification of crops from user generated imagery using mobile devices. A second use case is identifying aspects of photography that contravene GDPR legislation. Currently, this is restricted to faces but will eventually include license plates as well. Further work is required to understand the utility of AI in NAD qualification.
+</p>
+</details><br/>
+
 # 5. Requirements
 
 This chapter lists the requirements for the deliverables of the group, in alphabetical order.
@@ -141,7 +151,7 @@ To establish fitness for purpose of data that is part of an aggregated dataset, 
 
 **Related Deliverables:** [Best Practices](#2-best-practices)
 
-**Related Use Cases:** 
+**Related Use Cases:**
 
 ## Enable Ratings By Data Consumers
 
@@ -210,4 +220,3 @@ For convenience, this chapter lists requirements grouped by deliverable
 10. [Capture Creation Process](#capture-creation-process)
 
 # Acknowledgements
-
